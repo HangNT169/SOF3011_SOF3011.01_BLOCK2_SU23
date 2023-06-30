@@ -22,15 +22,9 @@ public class DemoLogin extends HttpServlet {
 //        response.sendRedirect("/buoi2/buoi2.jsp");
     }
 
-    @Override
-    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+    @Override protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         // Lay gia tri tu jsp => servlet
-        String username = request.getParameter("uname");
-        String password = request.getParameter("psw");
-        // Truyen gia tri servlet => jsp
-        request.setAttribute("u1", username);
-        request.setAttribute("u3", password);
-        // chuyen trang
-        request.getRequestDispatcher("/buoi2/hien-thi-ket-qua.jsp").forward(request, response);
+        String username = request.getParameter("uname");String password = request.getParameter("psw");// Truyen gia tri servlet => jsprequest.setAttribute("u1", username);
+        request.setAttribute("u3", password);// chuyen trangrequest.getRequestDispatcher("/buoi2/hien-thi-ket-qua.jsp").forward(request, response);
     }
 }
