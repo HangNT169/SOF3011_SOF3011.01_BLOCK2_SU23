@@ -11,4 +11,12 @@ public interface SinhVienService {
 
     List<SinhVien> getAll();
 
+    void addSinhVien(SinhVien sinhVien);
+
+    SinhVien detailSinhVien(String ma);
+
+    void removeSinhVien(String ma);
+
+    void updateSinhVien(SinhVien sinhVien,String ma);
+
 }

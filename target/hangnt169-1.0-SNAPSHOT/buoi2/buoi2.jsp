@@ -11,7 +11,7 @@
     <title>Title</title>
 </head>
 <body>
-<form action="/ket-qua" method="post">
+<form action="/hangnt169_war_explode/ket-qua" method="post">
     <div class="container">
         <label for="uname"><b>Username</b></label>
         <input type="text" placeholder="Enter Username" name="uname" required>
