@@ -1,4 +1,4 @@
-package com.poly.sof3011.hangnt169.B3_CRUDListFixCung.service.impl;
+package com.poly.sof3011.hangnt169.B3_CRUDListFixCung.service;
 
 import com.poly.sof3011.hangnt169.B3_CRUDListFixCung.entity.SinhVien;
 

@@ -1,8 +1,8 @@
 package com.poly.sof3011.hangnt169.B3_CRUDListFixCung.controller;
 
 import com.poly.sof3011.hangnt169.B3_CRUDListFixCung.entity.SinhVien;
-import com.poly.sof3011.hangnt169.B3_CRUDListFixCung.service.SinhVienServiceImpl;
-import com.poly.sof3011.hangnt169.B3_CRUDListFixCung.service.impl.SinhVienService;
+import com.poly.sof3011.hangnt169.B3_CRUDListFixCung.service.impl.SinhVienServiceImpl;
+import com.poly.sof3011.hangnt169.B3_CRUDListFixCung.service.SinhVienService;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.annotation.WebServlet;
 import jakarta.servlet.http.HttpServlet;

@@ -1,7 +1,7 @@
-package com.poly.sof3011.hangnt169.B3_CRUDListFixCung.service;
+package com.poly.sof3011.hangnt169.B3_CRUDListFixCung.service.impl;
 
 import com.poly.sof3011.hangnt169.B3_CRUDListFixCung.entity.SinhVien;
-import com.poly.sof3011.hangnt169.B3_CRUDListFixCung.service.impl.SinhVienService;
+import com.poly.sof3011.hangnt169.B3_CRUDListFixCung.service.SinhVienService;
 
 import java.util.ArrayList;
 import java.util.List;
